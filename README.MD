@@ -62,7 +62,7 @@ A.start < B.end && A.end > B.start
   B: |--------|
 ```
 
-# ❌ The Universal Non-Overlap Rule
+## ❌ The Universal Non-Overlap Rule
 Two time ranges do NOT overlap if:
 ```php
 A.end <= B.start || A.start >= B.end
