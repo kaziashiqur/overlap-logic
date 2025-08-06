@@ -1,4 +1,4 @@
-# 🕒 Time Range Overlap Detection in PHP / Laravel
+# 🕒 Time Range Overlap Detection
 
 Detecting time overlaps is essential in applications like:
 - Trip scheduling
