@@ -63,13 +63,9 @@ A: |--------|
                  A: |--------|
 B: |--------|
 
-
-
 ---
 
 ## ✅ Universal Non-Overlap Rule
 
 Two time ranges do NOT overlap when:
-
-```php
 A.end <= B.start || A.start >= B.end
