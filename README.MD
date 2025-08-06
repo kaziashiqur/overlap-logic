@@ -62,7 +62,3 @@ B: |--------|
 ❌ The Universal Non-Overlap Rule
 Two time ranges do NOT overlap when:
 A.end <= B.start || A.start >= B.end
-
-
-
-can you write readme.md file for my github using the above text
