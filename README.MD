@@ -35,7 +35,6 @@ A.end > B.start
 
 ## 🔍 Visual Timelines
 
-```text
 1. Same time
 A: |--------|
 B: |--------|
