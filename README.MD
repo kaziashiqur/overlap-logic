@@ -29,3 +29,40 @@ A.start < B.end && A.end > B.start
 | 5 | A fully inside B                    | 11:00    | 12:00  | 10:00    | 14:00  | ✅ Yes    |
 | 6 | No overlap (A ends before B starts) | 10:00    | 11:00  | 11:00    | 12:00  | ❌ No     |
 | 7 | No overlap (B ends before A starts) | 11:00    | 12:00  | 10:00    | 11:00  | ❌ No     |
+
+
+## 🔍 Visual Timelines
+1. Same time
+  A: |--------|  
+  B: |--------|
+
+2. Partial overlap (A before B)
+  A: |--------|  
+     B:    |--------|
+
+3. Partial overlap (B before A)
+       A:    |--------|  
+  B: |--------|
+
+4. B fully inside A
+  A: |-------------|  
+       B:   |-----|
+
+5. A fully inside B
+       A:   |-----|  
+  B: |-------------|
+
+6. No overlap (A ends before B starts)
+  A: |--------|  
+             B: |--------|
+
+7. No overlap (B ends before A starts)
+               A: |--------|  
+  B: |--------|
+
+
+# ❌ The Universal Non-Overlap Rule
+Two time ranges do NOT overlap if:
+```php
+A.end <= B.start || A.start >= B.end
+```
