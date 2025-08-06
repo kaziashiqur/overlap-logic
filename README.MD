@@ -32,6 +32,7 @@ A.start < B.end && A.end > B.start
 
 
 ## 🔍 Visual Timelines
+```text
 1. Same time
   A: |--------|  
   B: |--------|
@@ -59,7 +60,7 @@ A.start < B.end && A.end > B.start
 7. No overlap (B ends before A starts)
                A: |--------|  
   B: |--------|
-
+```
 
 # ❌ The Universal Non-Overlap Rule
 Two time ranges do NOT overlap if:
